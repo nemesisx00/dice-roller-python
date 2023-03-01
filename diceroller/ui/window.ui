@@ -1,0 +1,25 @@
+<interface>
+	<object class="GtkApplicationWindow" id="main_window">
+		<property name="title">Dice Roller (Python)</property>
+		<child>
+			<object class="GtkBox" id="column">
+				<property name="orientation">1</property>
+				<property name="spacing">15</property>
+				<property name="halign">3</property>
+				<property name="valign">3</property>
+				<child>
+					<object class="GtkBox" id="output_column">
+						<property name="orientation">1</property>
+						<property name="spacing">15</property>
+						<child>
+							<object class="GtkLabel" id="equation" />
+						</child>
+						<child>
+							<object class="GtkLabel" id="output" />
+						</child>
+					</object>
+				</child>
+			</object>
+		</child>
+	</object>
+</interface>

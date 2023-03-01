@@ -1,0 +1,102 @@
+<interface>
+	<object class="GtkBox" id="buttons_row">
+		<property name="orientation">0</property>
+		<property name="spacing">5</property>
+		<child>
+			<object class="GtkBox" id="button_col1">
+				<property name="orientation">1</property>
+				<property name="spacing">5</property>
+				<child>
+					<object class="GtkBox" id="dice_row1">
+						<property name="homogeneous">True</property>
+						<property name="orientation">0</property>
+						<property name="spacing">5</property>
+						<child>
+							<object class="GtkButton" id="button_d4">
+								<property name="label">d4</property>
+							</object>
+						</child>
+						<child>
+							<object class="GtkButton" id="button_d6">
+								<property name="label">d6</property>
+							</object>
+						</child>
+						<child>
+							<object class="GtkButton" id="button_d8">
+								<property name="label">d8</property>
+							</object>
+						</child>
+					</object>
+				</child>
+				<child>
+					<object class="GtkBox" id="dice_row2">
+						<property name="homogeneous">True</property>
+						<property name="orientation">0</property>
+						<property name="spacing">5</property>
+						<child>
+							<object class="GtkButton" id="button_d10">
+								<property name="label">d10</property>
+							</object>
+						</child>
+						<child>
+							<object class="GtkButton" id="button_d12">
+								<property name="label">d12</property>
+							</object>
+						</child>
+						<child>
+							<object class="GtkButton" id="button_d20">
+								<property name="label">d20</property>
+							</object>
+						</child>
+					</object>
+				</child>
+				<child>
+					<object class="GtkBox" id="dice_row3">
+						<property name="homogeneous">True</property>
+						<property name="orientation">0</property>
+						<property name="spacing">5</property>
+						<child>
+							<object class="GtkButton" id="button_d100">
+								<property name="label">d100</property>
+							</object>
+						</child>
+					</object>
+				</child>
+			</object>
+		</child>
+		<child>
+			<object class="GtkBox" id="button_col2">
+				<property name="homogeneous">True</property>
+				<property name="orientation">1</property>
+				<property name="spacing">5</property>
+				<child>
+					<object class="GtkButton" id="button_total">
+						<property name="label">Sum Total</property>
+					</object>
+				</child>
+				<child>
+					<object class="GtkButton" id="button_highest">
+						<property name="label">Take Highest</property>
+					</object>
+				</child>
+				<child>
+					<object class="GtkButton" id="button_lowest">
+						<property name="label">Take Lowest</property>
+					</object>
+				</child>
+			</object>
+		</child>
+		<child>
+			<object class="GtkBox" id="button_col3">
+				<property name="homogeneous">True</property>
+				<property name="orientation">1</property>
+				<property name="spacing">5</property>
+				<child>
+					<object class="GtkButton" id="button_clear">
+						<property name="label">Clear</property>
+					</object>
+				</child>
+			</object>
+		</child>
+	</object>
+</interface>
